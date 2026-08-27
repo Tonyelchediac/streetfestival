@@ -1,3 +1,18 @@
+// load code
+window.addEventListener("load", () => {
+  const loader = document.querySelector(".load");
+
+  if (!loader) return;
+
+  // Start fade-out
+  loader.classList.add("loaded");
+
+  // Completely remove loader after animation
+  setTimeout(() => {
+    loader.remove();
+  }, 700);
+});
+
 /* LUCIDE */
 lucide.createIcons();
 
