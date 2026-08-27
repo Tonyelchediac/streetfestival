@@ -2086,17 +2086,15 @@ footer h4 {
 
 /* Sponsors */
 .sponsors-logo-img {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 25px;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 30px;
   align-items: center;
   justify-content: center;
 }
 
 .sponsors-logo-img img {
-  flex: 1 1 75px;
-  height: 75px;
-  object-fit: contain;
+  height: auto;
 }
 
 /* =====================================================
@@ -2267,6 +2265,10 @@ footer h4 {
   .logo {
     width: 58px;
     height: 58px;
+  }
+
+  .sponsors-logo-img {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
