@@ -112,7 +112,7 @@ footer.innerHTML = `
             </div>
             <div
                 class="border-t border-white/10 mt-14 pt-7 flex flex-col sm:flex-row justify-between items-center gap-3 text-[10px] text-white/25 uppercase tracking-widest">
-                <span> © 2026 Street Festivals </span>
+                <span> © ${new Date().getFullYear()} Street Festivals </span>
                 <span> LET THE FUN BEGIN </span>
                 <div class="chedilex-footer-container"></div>
             </div>
