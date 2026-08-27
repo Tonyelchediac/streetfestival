@@ -2306,7 +2306,7 @@ footer h4 {
     padding: 45px 0 70px;
   }
   .hero-title {
-    font-size: clamp(48px, 17vw, 100px);
+    font-size: clamp(48px, 19vw, 100px);
     margin: 22px 0 28px;
   }
   .hero-copy {
@@ -2558,9 +2558,6 @@ footer h4 {
     min-height: 70vh;
     padding-top: 76px;
     align-items: center;
-  }
-  .hero-title {
-    font-size: clamp(72px, 23vw, 110px);
   }
   .hero-description {
     font-size: 14px;
