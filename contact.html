@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="description" content="Street Festivals Lebanon — Gallery">
+    <title>Contact Us | Street Festivals Lebanon</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="logos/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;600;700;800&family=Permanent+Marker&family=Space+Grotesk:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body class="paper">
+    <!-- Header -->
+    <header id="header" class="site-header">
+        <div class="max-w-7xl mx-auto px-5 lg:px-8">
+            <div class="header-inner">
+                <!-- Logo -->
+                <a href="index.html" class="flex items-center gap-3">
+                    <img src="logo.png" alt="Street Festivals" class="logo">
+                    <div class="hidden sm:block leading-none">
+                        <div class="font-black text-lg">STREET</div>
+                        <div class="font-black text-lg" style="color:var(--red)">FESTIVALS</div>
+                    </div>
+                </a>
+                <!-- Desktop navigation -->
+                <nav class="hidden lg:flex items-center gap-8">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="index.html#upcoming" class="nav-link">Events</a>
+                    <a href="gallery.html" class="nav-link">Gallery</a>
+                    <a href="about.html" class="nav-link">About</a>
+                    <a href="contact.html" class="nav-link active" style="color:var(--red)">Contact</a>
+                </nav>
+                <!-- Desktop CTA -->
+                <a href="#contact-form" class="hidden md:inline-flex btn btn-red">Partner With Us</a>
+                <!-- Mobile button -->
+                <button id="openMenu" class="lg:hidden w-11 h-11 grid place-items-center" aria-label="Open menu">
+                    <i data-lucide="menu"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="splat red" style="top:110px;right:-70px;transform:rotate(25deg);"></div>
+        <div class="splat" style="bottom:-80px;left:-80px;transform:rotate(-20deg);opacity:.35;"></div>
+        <div class="max-w-7xl mx-auto px-5 lg:px-8 w-full">
+            <div class="hero-content">
+                <div class="hero-kicker reveal">
+                    <span></span>
+                    GET IN TOUCH
+                </div>
+                <h1 class="display hero-title reveal">
+                    LET'S MAKE
+                    <br>
+                    SOMETHING
+                    <br>
+                    <span class="brush-blue">HAPPEN</span>
+                    <span style="color:var(--red)">.</span>
+                </h1>
+                <p class="hero-description reveal">
+                    Have an event idea, partnership proposal, sponsorship opportunity or simply want to bring a little
+                    more life to your street?
+                    <strong>We'd love to hear from you.</strong>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact-form" class="contact-section">
+        <div class="max-w-7xl mx-auto px-5 lg:px-8">
+            <div class="contact-grid">
+                <!-- Contact information -->
+                <div class="contact-info reveal">
+                    <div class="info-label">TALK TO US</div>
+                    <h2 class="info-title">
+                        SAY
+                        <br>
+                        <span class="brush-red">HELLO.</span>
+                    </h2>
+                    <p class="info-description">
+                        Whether you're a municipality, local business, artist, brand, sponsor or community organizer,
+                        we're always looking for new streets to bring to life.
+                    </p>
+                    <!-- Contact list -->
+                    <div class="contact-list">
+                        <!-- Email -->
+                        <a href="mailto:info@streetfestivall.com" class="contact-item">
+                            <div class="contact-icon">
+                                <i data-lucide="mail" class="w-5"></i>
+                            </div>
+                            <div>
+                                <small>Email</small>
+                                <strong>info@streetfestivall.com</strong>
+                            </div>
+                        </a>
+                        <!-- Phone -->
+                        <a href="tel:+96100000000" class="contact-item">
+                            <div class="contact-icon">
+                                <i data-lucide="phone" class="w-5"></i>
+                            </div>
+                            <div>
+                                <small>Phone</small>
+                                <strong>+961 XX XXX XXX</strong>
+                            </div>
+                        </a>
+                        <!-- Location -->
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i data-lucide="map-pin" class="w-5"></i>
+                            </div>
+                            <div>
+                                <small>Based In</small>
+                                <strong>Lebanon</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-8">
+                        <span class="hand text-2xl" style="color:var(--blue)">We reply. Promise.</span>
+                    </div>
+                </div>
+                <!-- Contact form -->
+                <div class="form-wrapper reveal">
+                    <div class="form-title">
+                        TELL US ABOUT
+                        <span style="color:var(--red)">IT.</span>
+                    </div>
+                    <p class="form-subtitle">
+                        Fill out the form and tell us what you're planning. We'll get back to you as soon as possible.
+                    </p>
+                    <form id="contactForm">
+                        <div class="form-grid">
+                            <!-- Name -->
+                            <div class="field">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name" placeholder="Your name" required>
+                            </div>
+                            <!-- Email -->
+                            <div class="field">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="you@email.com" required>
+                            </div>
+                            <!-- Phone -->
+                            <div class="field">
+                                <label for="phone">Phone</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+961">
+                            </div>
+                            <!-- Type -->
+                            <div class="field">
+                                <label for="type">I'm contacting about</label>
+                                <select id="type" name="type" required>
+                                    <option value="">Select one</option>
+                                    <option value="event">Organizing an Event</option>
+                                    <option value="partnership">Partnership</option>
+                                    <option value="sponsorship">Sponsorship</option>
+                                    <option value="business">Business Collaboration</option>
+                                    <option value="artist">Artist / Performer</option>
+                                    <option value="other">Something Else</option>
+                                </select>
+                            </div>
+                            <!-- Message -->
+                            <div class="field full">
+                                <label for="message">Your Message</label>
+                                <textarea id="message" name="message" placeholder="Tell us about your idea..."
+                                    required></textarea>
+                            </div>
+                        </div>
+                        <div class="form-submit">
+                            <button type="submit" class="btn btn-red">
+                                Send Message
+                                <i data-lucide="arrow-up-right" class="w-4"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location -->
+    <section class="location-section">
+        <div class="max-w-7xl mx-auto px-5 lg:px-8">
+            <div class="location-grid">
+                <div class="reveal">
+                    <div class="eyebrow" style="color:var(--blue)">FROM LEBANON</div>
+                    <div class="location-title">
+                        ONE
+                        <br>
+                        COUNTRY.
+                        <br>
+                        <span class="brush-blue">MANY</span>
+                        <br>
+                        STREETS.
+                    </div>
+                    <p class="location-copy">
+                        Street Festivals connects communities across Lebanon through music, food, culture, creativity
+                        and unforgettable public experiences.
+                    </p>
+                </div>
+                <div class="location-card reveal">
+                    <div class="location-inner">
+                        <div class="location-pin">
+                            <i data-lucide="map-pin" class="w-7"></i>
+                        </div>
+                        <div>
+                            <div class="text-white/40 text-[10px] font-bold uppercase tracking-[.2em] mb-2">Our Home
+                            </div>
+                            <div class="location-text">LEBANON 🇱🇧</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section id="contact" class="cta py-24">
+        <div class="max-w-5xl mx-auto px-5 text-center relative z-10">
+            <div class="eyebrow">YOUR STREET COULD BE NEXT</div>
+            <h2 class="display text-7xl md:text-[130px] leading-[.75]">
+                LET'S MAKE
+                <br />
+                SOME NOISE.
+            </h2>
+            <p class="max-w-xl mx-auto mt-8 leading-relaxed">
+                Got an idea?
+                Let's turn it into an experience people won't forget.
+            </p>
+            <a href="mailto:info@streetfestivall.com" class="btn mt-9 bg-white text-black">
+                Start A Conversation
+                <i data-lucide="arrow-up-right" class="w-4"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script src="https://cdn.jsdelivr.net/gh/chedilex/chedilex-assets-footer@main/footer.js?v=1.0.2"></script>
+    <script src="js/headerfooter.js"></script>
+    <script src="js/script.js"></script>
+
+    <script>
+        lucide.createIcons();
+        const header = document.getElementById("header");
+        window.addEventListener("scroll", () => { header.classList.toggle("scrolled", window.scrollY > 30); }, { passive: true });
+        const mobileMenu = document.getElementById("mobileMenu");
+        const openMenu = document.getElementById("openMenu");
+        const closeMenu = document.getElementById("closeMenu");
+        function openMobileMenu() { mobileMenu.classList.add("open"); document.body.style.overflow = "hidden"; }
+        function closeMobileMenu() { mobileMenu.classList.remove("open"); document.body.style.overflow = ""; }
+        openMenu.addEventListener("click", openMobileMenu);
+        closeMenu.addEventListener("click", closeMobileMenu);
+        document.querySelectorAll(".mobile-link").forEach(link => { link.addEventListener("click", closeMobileMenu); });
+        document.addEventListener("keydown", event => { if (event.key === "Escape") { closeMobileMenu(); } });
+        const observer = new IntersectionObserver(entries => { entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add("visible"); observer.unobserve(entry.target); } }); }, { threshold: .10, rootMargin: "0px 0px -30px 0px" });
+        document.querySelectorAll(".reveal").forEach(element => { observer.observe(element); });
+        const contactForm = document.getElementById("contactForm");
+        contactForm.addEventListener("submit", function (event) {
+            event.preventDefault();
+            const name = document.getElementById("name").value.trim();
+            const email = document.getElementById("email").value.trim();
+            const type = document.getElementById("type").value;
+            const message = document.getElementById("message").value.trim();
+            if (!name || !email || !type || !message) { alert("Please fill in all required fields."); return; }
+            const subject = encodeURIComponent("Street Festivals Contact — " + type);
+            const body = encodeURIComponent("Name: " + name + "\n\nEmail: " + email + "\n\nType: " + type + "\n\nMessage:\n" + message);
+            window.location.href = "mailto:info@streetfestivall.com" + "?subject=" + subject + "&body=" + body;
+        });
+        document.querySelectorAll("img").forEach(img => { img.addEventListener("dragstart", event => event.preventDefault()); });
+    </script>
+</body>
+
+</html>
